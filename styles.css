@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: url('background.jpg') no-repeat center center fixed; /* Ensure the image name is correct */
+    background-size: cover; /* Makes the image cover the entire screen */
+    color: #ffffff; /* Changes text color to white for better readability */
+}
+
+header {
+    background: rgba(0, 0, 0, 0.5); /* Transparent background for readability */
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background: rgba(0, 0, 0, 0.7); /* Transparent background for sections */
+    border-radius: 8px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.video-container iframe {
+    width: 30%;
+    height: 200px;
+    margin: 10px 0;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.5); /* Transparent background */
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.subscribe-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff0000; /* Button color */
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.subscribe-button:hover {
+    background-color: #cc0000; /* Button color on hover */
+}
